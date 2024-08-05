@@ -15,9 +15,9 @@ function App() {
        <Route path="project"element={<MyProject/>} />
        <Route path="spotify"element={<Spotify/>} />
        <Route path="movie"element={<MoviesCard/>} />
-       <Route path="movies/:MovieName/:MovieActor"element={<MovieDetail/>} />
-       <Route path="detail"element={<MovieDetail2/>}/>
-
+       <Route path="movies/:MovieName"element={<MovieDetail2/>} />
+       <Route path="/" element={<Spotify/>} />
+      
      </Routes>
     
     </BrowserRouter>

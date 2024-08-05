@@ -25,6 +25,7 @@ import Grid from '@mui/material/Grid';
 
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import { useParams } from 'react-router-dom';
 
 
 
@@ -75,7 +76,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   justifyContent: 'flex-end',
 }));
 
-export default function PersistentDrawerLeft() {
+export default function MovieDetail() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(true);
 
@@ -87,9 +88,24 @@ export default function PersistentDrawerLeft() {
     setOpen(false);
   };
  
+  const {movie_name} = useParams;
+  const [currentMovie,setCurrentMovie]=React.useState();
   const[currentSong,setCurrentSong]=React.useState();
 
-  const movie={
+  React.useEffect(()=>{
+    console.log("inside use effect",movie_name);
+    
+    const current_movie = movie.filter((val, index)=>{
+      if(val.name == movie_name){
+        setCurrentMovie(val);
+        return val
+      }
+    })
+    console.log("current_movie",current_movie);
+  },[])
+
+ const movie=[
+  {
     Title:"Chennai Express",
     Actor:"ShahRukh Khan , Deepika Padukon",
     Director:"Rohit Shetty",
@@ -100,7 +116,22 @@ export default function PersistentDrawerLeft() {
       {name:"Tera Rastaa Chhodoon Na", link:"https://pagalfree.com/musics/128-Tera%20Rastaa%20Chhodoon%20Na%20-%20Chennai%20Express%20128%20Kbps.mp3", singers: " Amitabh Bhattacharya, Anusha Mani"},
       {name:"Kashmir Tu Main KanyaKumari", link:"https://pagalfree.com/musics/128-Kashmir%20Main,%20Tu%20Kanyakumari%20-%20Chennai%20Express%20128%20Kbps.mp3",singers: "Vishal Shekhar, Sunidhi Chauhan, Arijit Singh, Neeti Mohan"}
     ]
+  },
+
+  {
+    Title:"Raksha Bandhan",
+    Actor:"Akshay Kumar , Bhumi Pednekar",
+    Director:"Aanand L. Rai",
+    Release_Date:"11 August 2022",
+    Songs:[
+      {name:"Tere Saath Hoon Main",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
+      {name:"Dhaagon Se Baandha",link:"",singers:"Arijit Singh"},
+      {name:"Kangan Ruby",link:"",singers:"Himesh Reshamiya"},
+      {name:"Bidaai",link:"",singers:"Romy"},
+      {name:"Raksha Bandhan",link:"",singers:"Shreya Ghoshal"}
+    ]
   }
+]
  
   return (
 
@@ -180,6 +211,12 @@ export default function PersistentDrawerLeft() {
             loading="lazy"
             width={300}
           />
+           <img
+            srcSet={`https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg`}
+            src={`https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg`}
+            loading="lazy"
+            width={300}
+          />
         </Grid>
         <Grid item>
             <Typography gutterBottom variant="h5" component="div">
@@ -203,7 +240,7 @@ export default function PersistentDrawerLeft() {
         <Grid item>
         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
           {
-            movie.Songs.map((val,index)=>{
+            currentMovie && currentMovie.Songs.map((val,index)=>{
               return <ListItem>
                     <ListItemAvatar>
                       <Avatar on onClick={()=>{

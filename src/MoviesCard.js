@@ -15,10 +15,6 @@ export default function MultiActionAreaCard() {
            Title:"Chennai Express",
            Actor:"ShahRukh Khan , Deepika Padukon",
            Image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201608/chennai_647_080916060730.jpg?VersionId=fLHghEguzAMw7dYawXuN0lum9N.rjRbN",
-           Songs:{
-            "1":"https://open.spotify.com/track/3XyFQxpSlGowWpZkIn3ISA?si=gU_m-wVDQbCBgEVMJgIaeg",
-            "2":"https://open.spotify.com/track/0joXv5niso2T8YXWOlIe1X?si=jHS8Q2QcTfiZNVROIgaTcg"
-          }
         },
        
         {
@@ -115,7 +111,7 @@ export default function MultiActionAreaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-        <Link to={`/movies/${val.Title}/${val.Actor}`} > Click </Link>
+        <Link to={`/movies/${val.Title}`} > Click </Link>
         </Button>
       </CardActions>
     </Card>
