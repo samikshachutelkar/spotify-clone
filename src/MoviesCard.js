@@ -98,8 +98,9 @@ export default function MultiActionAreaCard() {
           image="https://m.media-amazon.com/images/M/MV5BMGI2ZDQ2MzgtNjk2Ny00MTU5LWE0ZWQtM2I5NjRlODY5MGM1XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
          alt="green iguana"
         /> */}
-
-        <img width="200"height="140" src={val.Image}/>
+         <Link to={`/movies/${val.Title}`}>
+          <img width="200"height="140" src={val.Image}/>
+          </Link>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {val["Title"]}

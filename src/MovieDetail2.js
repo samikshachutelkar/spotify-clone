@@ -88,15 +88,17 @@ export default function MovieDetail() {
     setOpen(false);
   };
  
-  const {movie_name} = useParams;
-  const [currentMovie,setCurrentMovie]=React.useState();
+  const {movie_name} = useParams();
   const[currentSong,setCurrentSong]=React.useState();
+
+  const [currentMovie,setCurrentMovie]=React.useState();
+  
 
   React.useEffect(()=>{
     console.log("inside use effect",movie_name);
     
     const current_movie = movie.filter((val, index)=>{
-      if(val.name == movie_name){
+      if(val.Title == movie_name){
         setCurrentMovie(val);
         return val
       }
@@ -110,6 +112,7 @@ export default function MovieDetail() {
     Actor:"ShahRukh Khan , Deepika Padukon",
     Director:"Rohit Shetty",
     Release_Date:"8 August 2013",
+    image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201608/chennai_647_080916060730.jpg?VersionId=fLHghEguzAMw7dYawXuN0lum9N.rjRbN",
     Songs:[
       {name:"One Two Three Four", link:"https://pagalfree.com/musics/128-One%20Two%20Three%20Four%20(Get%20On%20The%20Dance%20Floor)%20-%20Chennai%20Express%20128%20Kbps.mp3", singers:"Vishal Shekhar, Vishal Dadlani, Hamsika Iyer, Sricharan Hasturirangan"},
       {name:"Titli", link:"https://pagalfree.com/musics/128-Titli%20-%20Chennai%20Express%20128%20Kbps.mp3", singers: "Chinmayi, Gopi Sundar"},
@@ -123,20 +126,50 @@ export default function MovieDetail() {
     Actor:"Akshay Kumar , Bhumi Pednekar",
     Director:"Aanand L. Rai",
     Release_Date:"11 August 2022",
+    image:"https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg",
     Songs:[
       {name:"Tere Saath Hoon Main",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
-      {name:"Dhaagon Se Baandha",link:"",singers:"Arijit Singh"},
+      {name:"Dhaagon Se Baandha",link:"https://pagalfree.com/musics/128-One%20Two%20Three%20Four%20(Get%20On%20The%20Dance%20Floor)%20-%20Chennai%20Express%20128%20Kbps.mp3",singers:"Arijit Singh"},
       {name:"Kangan Ruby",link:"",singers:"Himesh Reshamiya"},
       {name:"Bidaai",link:"",singers:"Romy"},
       {name:"Raksha Bandhan",link:"",singers:"Shreya Ghoshal"}
     ]
-  }
+  },
+  {
+    Title:"Chup Chup Ke",
+    Actor:"Kareena Kapoor, shahid Kapoor",
+    Director:"Priyadarshan",
+    Release_Date:"9 JUne 2016",
+    image:"https://i.ytimg.com/vi/SaEV_DMPogk/mqdefault.jpg",
+    Songs:[
+      {name:"dil Vich Lagya",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
+      {name:"Ghoomar",link:"",singers:"Arijit Singh"},
+      {name:"Aaya Re",link:"",singers:"Himesh Reshamiya"},
+      {name:"Tumhi Se",link:"",singers:"Romy"},
+      {name:"Mausam Hai Bada Quatil",link:"",singers:"Shreya Ghoshal"}
+    ]
+  },
+
+  {
+    Title:"Padmaavat",
+    Actor:"Ranveer Singh, Deepika Padukon, Shahid Kapoor",
+    Director:"Sanjay Leela Bhansali",
+    Release_Date:"25 January 2018",
+    image:"https://i.ytimg.com/vi/rWDXHmGJY9A/sddefault.jpg",
+    Songs:[
+      {name:"Naino Vale Ne",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
+      {name:"Ghoomar",link:"",singers:"Arijit Singh"},
+      {name:"Khali Bali",link:"",singers:"Himesh Reshamiya"},
+      {name:"Binte Dil",link:"",singers:"Romy"},
+      {name:"Ek Dil Hai Ek Jaan Hai",link:"",singers:"Shreya Ghoshal"}
+    ]
+  },
 ]
  
   return (
 
     <Box sx={{ display: 'flex' }}>
-        const [obj,setObj]
+       
       <CssBaseline />
       <AppBar position="fixed" open={open}>
         <Toolbar>
@@ -150,7 +183,7 @@ export default function MovieDetail() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h5" noWrap component="div">
-            Spotify
+            Spotify Clone
           </Typography>
         </Toolbar>
       </AppBar>
@@ -204,32 +237,26 @@ export default function MovieDetail() {
 
 
       <Grid container spacing={2}>
-        <Grid item sx={6}>
+        <Grid item md={4}>
           <img
-            srcSet={`https://akm-img-a-in.tosshub.com/indiatoday/images/story/201608/chennai_647_080916060730.jpg?VersionId=fLHghEguzAMw7dYawXuN0lum9N.rjRbN`}
-            src={`https://akm-img-a-in.tosshub.com/indiatoday/images/story/201608/chennai_647_080916060730.jpg?VersionId=fLHghEguzAMw7dYawXuN0lum9N.rjRbN`}
-            loading="lazy"
-            width={300}
-          />
-           <img
-            srcSet={`https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg`}
-            src={`https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg`}
+            srcSet={currentMovie && currentMovie.image}
+            src={currentMovie && currentMovie.image}
             loading="lazy"
             width={300}
           />
         </Grid>
-        <Grid item>
+        <Grid item md={4}>
             <Typography gutterBottom variant="h5" component="div">
-               {movie.Title}
+               {currentMovie && currentMovie.Title}
             </Typography>
             <Typography variant="h6" color="text.secondary">
-               {movie.Actor}
+               {currentMovie && currentMovie.Actor}
             </Typography>
             <Typography variant="h6" color="text.secondary">
-               {movie. Director}
+               {currentMovie && currentMovie.Director}
             </Typography>
             <Typography variant="h6" color="text.secondary">
-               {movie. Release_Date }
+               {currentMovie && currentMovie.Release_Date }
             </Typography>
             
         </Grid>
@@ -243,7 +270,7 @@ export default function MovieDetail() {
             currentMovie && currentMovie.Songs.map((val,index)=>{
               return <ListItem>
                     <ListItemAvatar>
-                      <Avatar on onClick={()=>{
+                      <Avatar onClick={()=>{
                         console.log("clicked",val.link);
                         setCurrentSong(val.link);
                       }}>

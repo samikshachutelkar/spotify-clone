@@ -97,7 +97,7 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h5" noWrap component="div">
-            Spotify
+            Spotify Clone
           </Typography>
         </Toolbar>
       </AppBar>
