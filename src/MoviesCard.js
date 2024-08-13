@@ -18,9 +18,9 @@ export default function MultiActionAreaCard() {
         },
        
         {
-            Title:"Raksha Bandhan",
-            Actor:"Akshay Kumar , Bhumi Pednekar",
-            Image:"https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg"
+            Title:"Sanam Teri Kasam",
+            Actor:"Harshwardhan Rane, Mawra Hocane",
+            Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4D8UWu2KqJq68FXYL4cqK7awD0NeTjt4uEQ&s"
         },
        
         {
@@ -37,9 +37,9 @@ export default function MultiActionAreaCard() {
         },
 
         { 
-          Title:"Dangal",
-          Actor:"Aamir Khan , Fatima Sana Shaikh , Sakshi Tanwar , Sanya Malhotra",
-          Image:"https://feminisminindia.com/wp-content/uploads/2016/12/DANGAL-NEW-POSTER.jpg"
+          Title:"Crook",
+          Actor:"Imraan Hashmi, Neha Sharma",
+          Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT3GoxUts717atSG5vCoTDHarPN1MejvtrhQ&s"
         },
 
         {
@@ -55,15 +55,15 @@ export default function MultiActionAreaCard() {
         },
 
         {
-          Title:"83",
-          Actor:"Ranveer Singh , Deepika Padukon",
-          Image:"https://images.sbs.com.au/dims4/default/7a5fab3/2147483647/strip/true/crop/704x396+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fyourlanguage%2Fpublic%2Fpodcast_images%2F83.jpg"     
+          Title:"RHTDM",
+          Actor:"R. Madhvan, Diya Sharma, Saif Ali Khan",
+          Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmY2Cme5W1lGfZYl9r5rzgKThvy-EYfWphqQ&s"     
         },
 
         {
-          Title:"PK",
-          Actor:"Aamir Khan , Anushka Sharma",
-          Image:"https://www.koimoi.com/wp-content/new-galleries/2020/05/pk-box-office-heres-the-daily-breakdown-of-aamir-khan-anushka-sharmas-satirical-drama-of-2014-0001.jpg"     
+          Title:"Ramaiya Vastavaiya",
+          Actor:"Aamir Khan , Anushka Sharma, Sushant Singh Rajput",
+          Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-y_QzJ8zvPk-AsXEb5B4WD6EeHmHtY3F6nA&s"     
         },
 
         {
@@ -73,15 +73,15 @@ export default function MultiActionAreaCard() {
         },
         
         {
-          Title:"Bhoot",
-          Actor:"Vicky Kaushal , Bhumi Pednekar ",
-          Image:"https://akm-img-a-in.tosshub.com/sites/ichowk/story/embed/202002/bhoot_650_020320101611.jpg"
+          Title:"Yeh Jawaani Hai Deewani",
+          Actor:"Ranbir Kapoor, Dipika Padukone, Klaki Koechlin, Aditya Roy Kapoor",
+          Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUH8igGfHcpG_ulsTNjXiM3okZKPIONegWyw&s"
         },
 
         {
-          Title:"Aavesham",
-          Actor:" Fahadh Faasil ",
-          Image:"https://i.ytimg.com/vi/9TidAXCo7Ss/sddefault.jpg"
+          Title:"1920",
+          Actor:"Adah Sharma, Rajneesh Duggal",
+          Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IfEERfiR1skddVIAXML9hOzS7nl0cdzslg&s"
         },
     
     ]);

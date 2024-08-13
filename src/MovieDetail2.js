@@ -122,17 +122,17 @@ export default function MovieDetail() {
   },
 
   {
-    Title:"Raksha Bandhan",
-    Actor:"Akshay Kumar , Bhumi Pednekar",
-    Director:"Aanand L. Rai",
-    Release_Date:"11 August 2022",
-    image:"https://i.timesnowhindi.com/stories/Raksha-Bandhan-Quick-Review.jpg",
+    Title:"Sanam Teri Kasam",
+    Actor:"Harshwardhan Rane , Mawra Hocane",
+    Director:" Radhika Rao, Vinay Sapru",
+    Release_Date:"5 February 2016",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4D8UWu2KqJq68FXYL4cqK7awD0NeTjt4uEQ&s",
     Songs:[
-      {name:"Tere Saath Hoon Main",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
-      {name:"Dhaagon Se Baandha",link:"https://pagalfree.com/musics/128-One%20Two%20Three%20Four%20(Get%20On%20The%20Dance%20Floor)%20-%20Chennai%20Express%20128%20Kbps.mp3",singers:"Arijit Singh"},
-      {name:"Kangan Ruby",link:"",singers:"Himesh Reshamiya"},
-      {name:"Bidaai",link:"",singers:"Romy"},
-      {name:"Raksha Bandhan",link:"",singers:"Shreya Ghoshal"}
+      {name:"Sanam Teri Kasam",link:"https://pagalfree.com/musics/128-Sanam%20Teri%20Kasam%20-%20Sanam%20Teri%20Kasam%20128%20Kbps.mp3",singers:"Ankit Tiwari, Palak Muchhal"},
+      {name:"Kheech Meri Photo",link:"https://pagalfree.com/musics/128-Kheech%20Meri%20Photo%20-%20Sanam%20Teri%20Kasam%20128%20Kbps.mp3",singers:"Neeti Mohan, AKASA, Darshan Raval, Himesh Reshamiya"},
+      {name:"Tera Chehra",link:"https://pagalfree.com/musics/128-Tera%20Chehra%20-%20Sanam%20Teri%20Kasam%20128%20Kbps.mp3",singers:"Arijit Singh, Himesh Reshamiya"},
+      {name:"Bewajah",link:"https://pagalfree.com/musics/128-Bewajah%20-%20Sanam%20Teri%20Kasam%20128%20Kbps.mp3",singers:"Himesh Reshamiya"},
+      {name:"Ek Number",link:"https://pagalfree.com/musics/128-Ek%20Number%20-%20Sanam%20Teri%20Kasam%20128%20Kbps.mp3",singers:"Himesh Reshamiya, Neeti Mohan"}
     ]
   },
   {
@@ -142,11 +142,11 @@ export default function MovieDetail() {
     Release_Date:"9 JUne 2016",
     image:"https://i.ytimg.com/vi/SaEV_DMPogk/mqdefault.jpg",
     Songs:[
-      {name:"dil Vich Lagya",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
-      {name:"Ghoomar",link:"",singers:"Arijit Singh"},
-      {name:"Aaya Re",link:"",singers:"Himesh Reshamiya"},
-      {name:"Tumhi Se",link:"",singers:"Romy"},
-      {name:"Mausam Hai Bada Quatil",link:"",singers:"Shreya Ghoshal"}
+      {name:"dil Vich Lagya",link:"https://pagalfree.com/musics/128-Dil%20Vich%20Lagya%20-%20Chup%20Chup%20Ke%20128%20Kbps.mp3",singers:"Himesh Reshammiya and Nihal Tauro"},
+      {name:"Ghoomar",link:"https://pagalfree.com/musics/128-Ghoomar%20-%20Chup%20Chup%20Ke%20128%20Kbps.mp3",singers:"Arijit Singh"},
+      {name:"Aaya Re",link:"https://pagalfree.com/musics/128-Aaya%20Re%20-%20Chup%20Chup%20Ke%20128%20Kbps.mp3",singers:"Himesh Reshamiya"},
+      {name:"Tumhi Se",link:"https://pagalfree.com/musics/128-Tumhi%20Se%20-%20Chup%20Chup%20Ke%20128%20Kbps.mp3",singers:"Romy"},
+      {name:"Mausam Hai Bada Quatil",link:"https://pagalfree.com/musics/128-Mausam%20Hai%20Bada%20Qatil%20-%20Chup%20Chup%20Ke%20128%20Kbps.mp3",singers:"Shreya Ghoshal"}
     ]
   },
 
@@ -157,11 +157,122 @@ export default function MovieDetail() {
     Release_Date:"25 January 2018",
     image:"https://i.ytimg.com/vi/rWDXHmGJY9A/sddefault.jpg",
     Songs:[
-      {name:"Naino Vale Ne",link:"",singers:"Himesh Reshammiya and Nihal Tauro"},
-      {name:"Ghoomar",link:"",singers:"Arijit Singh"},
-      {name:"Khali Bali",link:"",singers:"Himesh Reshamiya"},
-      {name:"Binte Dil",link:"",singers:"Romy"},
-      {name:"Ek Dil Hai Ek Jaan Hai",link:"",singers:"Shreya Ghoshal"}
+      {name:"Naino Vale Ne",link:"https://pagalfree.com/musics/128-Nainowale%20Ne%20-%20Padmaavat%20128%20Kbps.mp3",singers:"Neeti Mohan"},
+      {name:"Ghoomar",link:"https://pagalfree.com/musics/128-Ghoomar%20-%20Padmaavat%20128%20Kbps.mp3",singers:"Shreya Ghoshal, Swaroop Khan"},
+      {name:"Khali Bali",link:"https://pagalfree.com/musics/128-Khalibali%20-%20Padmaavat%20128%20Kbps.mp3",singers:"Shivam Pathak, Shail Hada"},
+      {name:"Binte Dil",link:"https://pagalfree.com/musics/128-Binte%20Dil%20-%20Padmaavat%20128%20Kbps.mp3",singers:"Arijit Singh"},
+      {name:"Ek Dil Hai Ek Jaan Hai",link:"https://pagalfree.com/musics/128-Ek%20Dil%20Ek%20Jaan%20-%20Padmaavat%20128%20Kbps.mp3",singers:"Shivam Pathak, Muztaba AZIZ NAZA, Kunal Pandit, Farhan Sabri"}
+    ]
+  },
+  {
+    Title:"Crook",
+    Actor:"Imraan Hashmi, Neha Sharma",
+    Director:"Mohit Suri",
+    Release_Date:" 8 October 2010 ",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT3GoxUts717atSG5vCoTDHarPN1MejvtrhQ&s",
+    Songs:[
+      {name:"Mere Bina",link:"https://pagalfree.com/musics/128-Mere%20Bina%20-%20Crook%20128%20Kbps.mp3",singers:"Pritam, Nikhil D'souza"},
+      {name:"Tujhko Jo Paya",link:"https://pagalfree.com/musics/128-Tujhko%20Jo%20Paaya%20-%20Crook%20128%20Kbps.mp3",singers:"Pritam, Mohit Chauhan"},
+      {name:"Tujh Mein",link:"https://pagalfree.com/musics/128-Tujhi%20Mein%20-%20Crook%20128%20Kbps.mp3",singers:"pritam, KK"},
+      {name:"Challa",link:"https://pagalfree.com/musics/128-Challa%20-%20Crook%20128%20Kbps.mp3",singers:"Pritam, Babbu Maan, Suzanne D'Mello"},
+      {name:"Kya",link:"https://pagalfree.com/musics/128-Kya%20-%20Crook%20128%20Kbps.mp3",singers:"Pritam, Neeraj Shridha"}
+    ]
+  },
+  {
+    Title:"Chhichhore",
+    Actor:"Sushant Singh Rajput , Shraddha Kapoor",
+    Director:"Nitesh Tiwari",
+    Release_Date:"6 September 2019",
+    image:"https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9771/1599771-h-2ce23e9cb135",
+    Songs:[
+      {name:"Khairiyat",link:"https://pagalfree.com/musics/128-Khairiyat%20-%20Chhichhore%20128%20Kbps.mp3",singers:"Arijit Singh"},
+      {name:"Woh Din",link:"https://pagalfree.com/musics/128-Woh%20Din%20-%20Chhichhore%20128%20Kbps.mp3",singers:"Arijit Singh"},
+      {name:"Kal Ki Baat Hai",link:"https://pagalfree.com/musics/128-Kal%20Ki%20Hi%20Baat%20Hai%20-%20Chhichhore%20128%20Kbps.mp3",singers:"KK"},
+      {name:"Control",link:"https://pagalfree.com/musics/128-Control%20-%20Chhichhore%20128%20Kbps.mp3",singers:"Amitabh Bhattacharya, Nakash Aziz, Geet Sagar, Sreeram Chandra, Manish .J. Tipu"}
+    ]
+  },
+  {
+    Title:"M.S Dhoni",
+    Actor:"Sushant Singh Rajput , Kiara Advani",
+    Director:"Neeraj Pandey",
+    Release_Date:"30 September 2016 ",
+    image:"https://assets-in.bmscdn.com/discovery-catalog/events/et00025234-hkxnfqlftf-landscape.jpg",
+    Songs:[
+      {name:"Besabriyaan",link:"https://pagalfree.com/musics/128-Besabriyaan%20-%20M.S.%20Dhoni%20-%20The%20Untold%20Story%20128%20Kbps.mp3",singers:"Armaan Malik"},
+      {name:"Jab Tak",link:"https://pagalfree.com/musics/128-Jab%20Tak%20-%20M.S.%20Dhoni%20-%20The%20Untold%20Story%20128%20Kbps.mp3",singers:"Armaan Malik"},
+      {name:"Kaun Tujhe",link:"https://pagalfree.com/musics/128-Kaun%20Tujhe%20-%20M.S.%20Dhoni%20-%20The%20Untold%20Story%20128%20Kbps.mp3",singers:"Palak Muchhal"},
+      {name:"Phir Kabhi",link:"https://pagalfree.com/musics/128-Phir%20Kabhi%20-%20M.S.%20Dhoni%20-%20The%20Untold%20Story%20128%20Kbps.mp3",singers:"Arijit Singh"},
+      {name:"Padhoge Likhoge",link:"https://pagalfree.com/musics/128-Padhoge%20Likhoge%20-%20M.S.%20Dhoni%20-%20The%20Untold%20Story%20128%20Kbps.mp3",singers:"Ananya Nanda"}
+    ]
+  },
+  {
+    Title:"RHTDM",
+    Actor:"R. Madhvan, Diya Sharma, Saif Ali Khan",
+    Director:"Gautham Vasudev Menon",
+    Release_Date:"19 October 2001",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmY2Cme5W1lGfZYl9r5rzgKThvy-EYfWphqQ&s",
+    Songs:[
+      {name:"Kaise Main Kahu Tujhse",link:"V",singers:"KK"},
+      {name:"Such Keh Raha Hai Deewana",link:"https://pagalfree.com/musics/128-Such%20Keh%20Raha%20Hai%20-%20Rehnaa%20Hai%20Terre%20Dil%20Mein%20128%20Kbps.mp3",singers:"KK"},
+      {name:"zara Zara",link:"https://pagalfree.com/musics/128-Zara%20Zara%20-%20Rehnaa%20Hai%20Terre%20Dil%20Mein%20128%20Kbps.mp3",singers:"Bombay Jayshree"},
+      {name:"Dilko Tumse Pyar Hua",link:"https://pagalfree.com/musics/128-Dilko%20Tumse%20Pyar%20Hua%20-%20Rehnaa%20Hai%20Terre%20Dil%20Mein%20128%20Kbps.mp3",singers:"RoopKumar Rathod"},
+      {name:"Bolo Bolo",link:"https://pagalfree.com/musics/128-Bolo%20Bolo%20-%20Rehnaa%20Hai%20Terre%20Dil%20Mein%20128%20Kbps.mp3",singers:"Shaan"}
+    ]
+  },
+  {
+    Title:"Ramaiya Vastavaiya",
+    Actor:"Girish Kumar, Shruti Hasan, Sonu Sood",
+    Director:"Prabhu Deva",
+    Release_Date:"19 July 2013",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-y_QzJ8zvPk-AsXEb5B4WD6EeHmHtY3F6nA&s",
+    Songs:[
+      {name:"Peecha Chhute",link:"https://pagalfree.com/musics/128-Peecha%20Chhute%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.mp3",singers:"Mohit Chauhan"},
+      {name:"Jadoo Ki Jhappi",link:"https://pagalfree.com/musics/128-Jadoo%20Ki%20Jhappi%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.mp3",singers:"Mikka Singh, Neha Kakkar"},
+      {name:"Jeene Laga Hoon",link:"https://pagalfree.com/musics/128-Jeene%20Laga%20Hoon%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.mp3",singers:"Atif Aslam, Shreya Ghoshal"},
+      {name:"Bairiyaa",link:"https://pagalfree.com/musics/128-Bairiyaa%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.mp3",singers:"Atif Aslam"},
+      {name:"Rang Jo Lagyo",link:"https://pagalfree.com/musics/128-Rang%20Jo%20Lagyo%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.mp3",singers:"Atif Aslam"}
+    ]
+  },
+  {
+    Title:"Pushpa",
+    Actor:"Allu Arjun , Rashmika Mandana",
+    Director:"Sukumar",
+    Release_Date:"17 December 2021",
+    image:"https://lehren.com/wp-content/uploads/2022/01/Pushpa-The-Rise-Storyline-Ending-What-To-Expect-In-Part-2.jpg",
+    Songs:[
+      {name:"Jago Jago Bakre",link:"https://pagalfree.com/musics/128-Jaago%20Jaago%20Bakre%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.mp3",singers:"Vishal Dadlani"},
+      {name:"Srivalli",link:"https://pagalfree.com/musics/128-Srivalli%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.mp3",singers:"Javed Ali"},
+      {name:"Eyy Bidda Yeh Mera Adda",link:"https://pagalfree.com/musics/128-Eyy%20Bidda%20Ye%20Mera%20Adda%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.mp3",singers:"Nakash Aziz"},
+      {name:"Oo Bolega Yaa Oo Oo Bolega",link:"https://pagalfree.com/musics/128-Oo%20Bolega%20Ya%20Oo%20Oo%20Bolega%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.mp3",singers:"Kanika Kapoor"},
+      {name:"Saami Saami",link:"https://pagalfree.com/musics/128-Saami%20Saami%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.mp3",singers:"Sunidhi Chauhan"}
+    ]
+  },
+  {
+    Title:"Yeh Jawaani Hai Deewani",
+    Actor:"Ranbir Kapoor, Dipika Padukone, Klaki Koechlin, Aditya Roy Kapoor",
+    Director:"Ayan Mukerji",
+    Release_Date:"31 May 2013",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUH8igGfHcpG_ulsTNjXiM3okZKPIONegWyw&s",
+    Songs:[
+      {name:"Badtameez Dil",link:"https://pagalfree.com/musics/128-Badtameez%20Dil%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3",singers:"Benny Dayal, Shefali Alvares"},
+      {name:"Balam Pichkari",link:"https://pagalfree.com/musics/128-Balam%20Pichkari%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3",singers:"Vishal Dadlani, Shalmali Kholgade"},
+      {name:"Dilliwaali Girlfriend",link:"https://pagalfree.com/musics/128-Dilliwaali%20Girlfriend%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3",singers:"Arijit Singh, Sunidhi Chauhan"},
+      {name:"Kabira",link:"https://pagalfree.com/musics/128-Kabira%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3",singers:"Tochi Raina, Rekha Bhardwaj"},
+      {name:"Subhanallah",link:"https://pagalfree.com/musics/128-Subhanallah%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3",singers:"Sreeram Chandra, Shilpa Rao"}
+    ]
+  },
+  {
+    Title:"1920",
+    Actor:"Adah Sharma, Rajneesh Duggal",
+    Director:"Vikram Bhatt",
+    Release_Date:"12 September 2008",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IfEERfiR1skddVIAXML9hOzS7nl0cdzslg&s",
+    Songs:[
+      {name:"1920 Theme",link:"https://pagalfree.com/musics/128-1920%20Theme%20-%201920%20128%20Kbps.mp3",singers:"Instrumental"},
+      {name:"Aise Jalta Hai Jiya",link:"https://pagalfree.com/musics/128-Aise%20Jalta%20Hai%20Jiya%20-%201920%20128%20Kbps.mp3",singers:"Asha Bhosle"},
+      {name:"Bichhua",link:"https://pagalfree.com/musics/128-Bichua%20-%201920%20128%20Kbps.mp3",singers:"Subha Mudgal"},
+      {name:"Tujhe Main Pyar Karu",link:"https://pagalfree.com/musics/128-Tujhe%20Main%20Pyar%20Karu%20-%201920%20128%20Kbps.mp3",singers:"Kailash Kher"},
+      {name:"Vada Tumse Hai Vada",link:"https://pagalfree.com/musics/128-Vaada%20Tumse%20Hain%20Vaada%20-%201920%20128%20Kbps.mp3",singers:"Pandit Jasraj"}
     ]
   },
 ]
